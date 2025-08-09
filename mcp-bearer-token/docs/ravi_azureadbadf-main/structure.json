@@ -1,0 +1,623 @@
+{
+  "name": "ravi_azureadbadf-main",
+  "analysis_date": "2025-08-09T18:36:02.564772",
+  "scan_mode": "full",
+  "structure": {
+    "root": {
+      "type": "directory",
+      "files": [
+        {
+          "name": "Azure Data Engineer + Databricks Content -Pyspark Telugu Channel.pdf",
+          "info": {
+            "type": "file",
+            "extension": "pdf",
+            "size": 634735
+          }
+        },
+        {
+          "name": "emp.csv",
+          "info": {
+            "type": "file",
+            "extension": "csv",
+            "size": 1952
+          }
+        },
+        {
+          "name": "new_notebook.py",
+          "info": {
+            "type": "file",
+            "extension": "py",
+            "size": 303
+          }
+        },
+        {
+          "name": "publish_config.json",
+          "info": {
+            "type": "file",
+            "extension": "json",
+            "size": 55
+          }
+        },
+        {
+          "name": "README.md",
+          "info": {
+            "type": "file",
+            "extension": "md",
+            "size": 49
+          }
+        },
+        {
+          "name": "Untitled Notebook 2023-06-27 20_06_44.py",
+          "info": {
+            "type": "file",
+            "extension": "py",
+            "size": 74
+          }
+        }
+      ],
+      "directories": [
+        "azure_realtime_issues",
+        "azure_realtime_scenarios",
+        "factory",
+        "integrationRuntime",
+        "linkedService"
+      ]
+    },
+    "azure_realtime_issues": {
+      "type": "directory",
+      "files": [
+        {
+          "name": "readme.md",
+          "info": {
+            "type": "file",
+            "extension": "md",
+            "size": 22
+          }
+        }
+      ],
+      "directories": []
+    },
+    "azure_realtime_scenarios": {
+      "type": "directory",
+      "files": [
+        {
+          "name": "coalesce_repartition.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 5919
+          }
+        },
+        {
+          "name": "difference between sort , order by and sortWithinpartition.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 30973
+          }
+        },
+        {
+          "name": "dynamic_json_process.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 16967
+          }
+        },
+        {
+          "name": "get file wise record cound in pyspark dataframe.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 6134
+          }
+        },
+        {
+          "name": "get partition wise record cound in pyspark dataframe.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 4020
+          }
+        },
+        {
+          "name": "How to add Sequence generated surrogate key as a column in dataframe.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 64215
+          }
+        },
+        {
+          "name": "how to create databricks tables DDL backups.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 4334
+          }
+        },
+        {
+          "name": "how to create year and month wise partition in pyspark.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 20772
+          }
+        },
+        {
+          "name": "how to get 53rd week number years from last 10 years.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 3528
+          }
+        },
+        {
+          "name": "How to get Individual column wise null records count.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 1913
+          }
+        },
+        {
+          "name": "how to handle bad data using pyspark read mode.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 26926
+          }
+        },
+        {
+          "name": "how to handle complex json data file.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 11258
+          }
+        },
+        {
+          "name": "how to handle double delimiter multi delimiters in pyspark.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 9974
+          }
+        },
+        {
+          "name": "how to handle yy date format in pyspark for before 2000 data.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 8423
+          }
+        },
+        {
+          "name": "how to read nested folder structured data files in pyspark.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 8360
+          }
+        },
+        {
+          "name": "how to remove duplicate records based on updated date.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 10790
+          }
+        },
+        {
+          "name": "python parallel process.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 30101
+          }
+        },
+        {
+          "name": "readme.md",
+          "info": {
+            "type": "file",
+            "extension": "md",
+            "size": 25
+          }
+        },
+        {
+          "name": "scenarios_22_no_of_rows_per_file.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 9247
+          }
+        },
+        {
+          "name": "skip first few rows while creating pyspark dataframe.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 6983
+          }
+        },
+        {
+          "name": "variable size of columns reading in pyspark.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 4161
+          }
+        },
+        {
+          "name": "why we should not use crc32 for surrogate key generation.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 51100
+          }
+        },
+        {
+          "name": "word_count_program_pyspark_rdd.ipynb",
+          "info": {
+            "type": "file",
+            "extension": "ipynb",
+            "size": 110367
+          }
+        }
+      ],
+      "directories": []
+    },
+    "factory": {
+      "type": "directory",
+      "files": [
+        {
+          "name": "adfv2batch37dev.json",
+          "info": {
+            "type": "file",
+            "extension": "json",
+            "size": 210
+          }
+        }
+      ],
+      "directories": []
+    },
+    "integrationRuntime": {
+      "type": "directory",
+      "files": [
+        {
+          "name": "azureIR.json",
+          "info": {
+            "type": "file",
+            "extension": "json",
+            "size": 310
+          }
+        }
+      ],
+      "directories": []
+    },
+    "linkedService": {
+      "type": "directory",
+      "files": [
+        {
+          "name": "ls_adlsgen2.json",
+          "info": {
+            "type": "file",
+            "extension": "json",
+            "size": 538
+          }
+        }
+      ],
+      "directories": []
+    }
+  },
+  "summary": {
+    "file_count": 33,
+    "dir_count": 6,
+    "languages": [
+      "py"
+    ],
+    "entry_points": [],
+    "config_files": [],
+    "source_files_count": 2,
+    "has_tests": false,
+    "language_distribution": {
+      "py": 6.1
+    }
+  },
+  "key_files": [
+    {
+      "path": "README.md",
+      "type": "documentation",
+      "importance": "high"
+    },
+    {
+      "path": "azure_realtime_issues\\readme.md",
+      "type": "documentation",
+      "importance": "high"
+    },
+    {
+      "path": "azure_realtime_scenarios\\readme.md",
+      "type": "documentation",
+      "importance": "high"
+    }
+  ],
+  "code_elements": {
+    "project_name": "ravi_azureadbadf-main",
+    "languages": {
+      "Python": 6.2,
+      "JSON": 12.5,
+      "Markdown": 9.4,
+      "Jupyter Notebook": 68.8
+    },
+    "file_count": 32,
+    "source_file_count": 31,
+    "folders": [
+      {
+        "path": "",
+        "files": [
+          "emp.csv",
+          "new_notebook.py",
+          "publish_config.json",
+          "README.md",
+          "Untitled Notebook 2023-06-27 20_06_44.py"
+        ]
+      },
+      {
+        "path": "azure_realtime_issues",
+        "files": [
+          "readme.md"
+        ]
+      },
+      {
+        "path": "azure_realtime_scenarios",
+        "files": [
+          "coalesce_repartition.ipynb",
+          "difference between sort , order by and sortWithinpartition.ipynb",
+          "dynamic_json_process.ipynb",
+          "get file wise record cound in pyspark dataframe.ipynb",
+          "get partition wise record cound in pyspark dataframe.ipynb",
+          "How to add Sequence generated surrogate key as a column in dataframe.ipynb",
+          "how to create databricks tables DDL backups.ipynb",
+          "how to create year and month wise partition in pyspark.ipynb",
+          "how to get 53rd week number years from last 10 years.ipynb",
+          "How to get Individual column wise null records count.ipynb",
+          "how to handle bad data using pyspark read mode.ipynb",
+          "how to handle complex json data file.ipynb",
+          "how to handle double delimiter multi delimiters in pyspark.ipynb",
+          "how to handle yy date format in pyspark for before 2000 data.ipynb",
+          "how to read nested folder structured data files in pyspark.ipynb",
+          "how to remove duplicate records based on updated date.ipynb",
+          "python parallel process.ipynb",
+          "readme.md",
+          "scenarios_22_no_of_rows_per_file.ipynb",
+          "skip first few rows while creating pyspark dataframe.ipynb",
+          "variable size of columns reading in pyspark.ipynb",
+          "why we should not use crc32 for surrogate key generation.ipynb",
+          "word_count_program_pyspark_rdd.ipynb"
+        ]
+      },
+      {
+        "path": "factory",
+        "files": [
+          "adfv2batch37dev.json"
+        ]
+      },
+      {
+        "path": "integrationRuntime",
+        "files": [
+          "azureIR.json"
+        ]
+      },
+      {
+        "path": "linkedService",
+        "files": [
+          "ls_adlsgen2.json"
+        ]
+      }
+    ],
+    "files": [
+      {
+        "path": "emp.csv",
+        "size": 1952,
+        "language": "Unknown",
+        "line_count": 34
+      },
+      {
+        "path": "new_notebook.py",
+        "size": 303,
+        "language": "Python",
+        "line_count": 18
+      },
+      {
+        "path": "publish_config.json",
+        "size": 55,
+        "language": "JSON",
+        "line_count": 1
+      },
+      {
+        "path": "README.md",
+        "size": 49,
+        "language": "Markdown",
+        "line_count": 2
+      },
+      {
+        "path": "Untitled Notebook 2023-06-27 20_06_44.py",
+        "size": 74,
+        "language": "Python",
+        "line_count": 3
+      },
+      {
+        "path": "azure_realtime_issues\\readme.md",
+        "size": 22,
+        "language": "Markdown",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\coalesce_repartition.ipynb",
+        "size": 5919,
+        "language": "Jupyter Notebook",
+        "line_count": 269
+      },
+      {
+        "path": "azure_realtime_scenarios\\difference between sort , order by and sortWithinpartition.ipynb",
+        "size": 30973,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\dynamic_json_process.ipynb",
+        "size": 16967,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\get file wise record cound in pyspark dataframe.ipynb",
+        "size": 6134,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\get partition wise record cound in pyspark dataframe.ipynb",
+        "size": 4020,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\How to add Sequence generated surrogate key as a column in dataframe.ipynb",
+        "size": 64215,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\how to create databricks tables DDL backups.ipynb",
+        "size": 4334,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\how to create year and month wise partition in pyspark.ipynb",
+        "size": 20772,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\how to get 53rd week number years from last 10 years.ipynb",
+        "size": 3528,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\How to get Individual column wise null records count.ipynb",
+        "size": 1913,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\how to handle bad data using pyspark read mode.ipynb",
+        "size": 26926,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\how to handle complex json data file.ipynb",
+        "size": 11258,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\how to handle double delimiter multi delimiters in pyspark.ipynb",
+        "size": 9974,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\how to handle yy date format in pyspark for before 2000 data.ipynb",
+        "size": 8423,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\how to read nested folder structured data files in pyspark.ipynb",
+        "size": 8360,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\how to remove duplicate records based on updated date.ipynb",
+        "size": 10790,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\python parallel process.ipynb",
+        "size": 30101,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\readme.md",
+        "size": 25,
+        "language": "Markdown",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\scenarios_22_no_of_rows_per_file.ipynb",
+        "size": 9247,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\skip first few rows while creating pyspark dataframe.ipynb",
+        "size": 6983,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\variable size of columns reading in pyspark.ipynb",
+        "size": 4161,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\why we should not use crc32 for surrogate key generation.ipynb",
+        "size": 51100,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "azure_realtime_scenarios\\word_count_program_pyspark_rdd.ipynb",
+        "size": 110367,
+        "language": "Jupyter Notebook",
+        "line_count": 1
+      },
+      {
+        "path": "factory\\adfv2batch37dev.json",
+        "size": 210,
+        "language": "JSON",
+        "line_count": 9
+      },
+      {
+        "path": "integrationRuntime\\azureIR.json",
+        "size": 310,
+        "language": "JSON",
+        "line_count": 18
+      },
+      {
+        "path": "linkedService\\ls_adlsgen2.json",
+        "size": 538,
+        "language": "JSON",
+        "line_count": 12
+      }
+    ],
+    "functions": [],
+    "classes": [],
+    "api_routes": [],
+    "frameworks": {},
+    "special_files": {
+      "readme": {
+        "path": "azure_realtime_scenarios\\readme.md",
+        "size": 25
+      }
+    }
+  }
+}
