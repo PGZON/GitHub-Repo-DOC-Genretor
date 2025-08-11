@@ -9,6 +9,10 @@ from mcp import ErrorData, McpError
 from mcp.server.auth.provider import AccessToken
 from mcp.types import INVALID_PARAMS, INTERNAL_ERROR
 from pydantic import BaseModel, Field
+import threading
+import time
+import requests
+
 
 import markdownify
 import httpx
@@ -695,6 +699,17 @@ async def main():
     
     # Using /mcp path to match Puch AI connection URL
     await mcp.run_async("streamable-http", host="0.0.0.0", port=8086, path="/mcp")
+# --- Keep-alive function ---
+def keep_alive():
+    url = "https://github-repo-doc-genretor.onrender.com"  # Replace with your Render app URL
+    while True:
+        try:
+            response = requests.get(url, timeout=10)
+            print(f"🔄 Keep-alive ping sent. Status: {response.status_code}")
+        except Exception as e:
+            print(f"⚠️ Keep-alive ping failed: {e}")
+        time.sleep(120)  # 2 minutes
 
 if __name__ == "__main__":
+    threading.Thread(target=keep_alive, daemon=True).start()
     asyncio.run(main())
